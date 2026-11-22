@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "website": "https://example.com/",
+  "sources": ["https://example.com/"],
+  "brand": {
+    "name": "Northside Bicycle Repair",
+    "category": "Bicycle repair",
+    "summary": "A fictional Pune workshop offering tune-ups and puncture repair."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "A Pune workshop serving local cyclists who need routine or urgent repairs.",
+      "main_products_and_services": ["Bicycle tune-ups", "Puncture repair"],
+      "competitors": [],
+      "strengths": ["Offers both preventive maintenance and puncture repair."],
+      "opportunities": ["Publish pricing and turnaround times for common repairs."]
+    },
+    "target_search_queries": [
+      {"query":"bicycle repair shop in Pune","platforms":["Google"],"intent":"Local service","business_relevance":"Reaches riders near the workshop.","target_audience":"Pune cyclists"},
+      {"query":"Pune cycling group puncture repair recommendations","platforms":["Facebook"],"intent":"Community referrals","business_relevance":"Matches requests for local flat repairs.","target_audience":"Local cycling groups"},
+      {"query":"Pune bike tune up before and after","platforms":["Instagram"],"intent":"Visual discovery","business_relevance":"Makes tune-up work visible.","target_audience":"Recreational riders"},
+      {"query":"Pune office bicycle maintenance workshop","platforms":["LinkedIn"],"intent":"Find a local partner","business_relevance":"Tests interest in a potential group service.","target_audience":"Office facilities managers"},
+      {"query":"where to fix a bike puncture in Pune","platforms":["X"],"intent":"Urgent help","business_relevance":"Matches the puncture service.","target_audience":"Bike commuters"}
+    ],
+    "seo_improvements": {
+      "primary_keyword": "bicycle repair in Pune",
+      "secondary_keywords": ["Pune bicycle tune-up"],
+      "long_tail_keywords": ["where to fix a bicycle puncture in Pune"],
+      "business_keywords": ["bike workshop", "bicycle maintenance"],
+      "recommended_title": "Bicycle Repair in Pune | Northside Bicycle Repair",
+      "title_structure": "Lead with service and city, then add the workshop name.",
+      "meta_description": "Visit Northside Bicycle Repair in Pune for bicycle tune-ups and puncture repair.",
+      "supporting_content": ["Publish a tune-up checklist.", "Add a puncture repair page with turnaround and prices."]
+    },
+    "top_services": [
+      {"name":"Bicycle tune-ups","description":"Routine bicycle maintenance.","target_industry":"Cycling","target_customer":"Regular riders","main_benefit":"Keeps the bicycle running smoothly.","basis":"website_content","evidence":"“Bicycle tune-ups” on https://example.com/"},
+      {"name":"Puncture repair","description":"Fixes bicycle flats.","target_industry":"Cycling","target_customer":"Daily commuters","main_benefit":"Gets riders back on the road.","basis":"website_content","evidence":"“Puncture repair” on https://example.com/"},
+      {"name":"Brake safety check","description":"Potential standalone check of braking performance.","target_industry":"Cycling","target_customer":"Commuters","main_benefit":"Identifies worn brakes.","basis":"inferred_recommendation","evidence":"Suggested extension of tune-up work."},
+      {"name":"Pre-ride inspection","description":"Potential check for riders planning a longer ride.","target_industry":"Recreation","target_customer":"Weekend riders","main_benefit":"Catches maintenance needs before departure.","basis":"inferred_recommendation","evidence":"Suggested package based on tune-up work."},
+      {"name":"Office maintenance sessions","description":"Potential on-site maintenance event.","target_industry":"Workplace services","target_customer":"Facilities teams","main_benefit":"Makes minor repairs convenient for staff.","basis":"inferred_recommendation","evidence":"Potential group delivery of existing repair work."}
+    ],
+    "target_audience": {
+      "primary_audience": ["Pune bicycle commuters"],
+      "secondary_audience": ["Recreational cyclists"],
+      "industries": ["Cycling and outdoor recreation"],
+      "business_types": ["Offices with cycling commuters"],
+      "customer_profiles": ["Riders seeking routine service or a quick flat fix"],
+      "geography": ["Pune"],
+      "customer_needs": ["Reliable bikes", "Quick puncture repairs"],
+      "customer_interests": ["Cycling routes", "Commuter maintenance"],
+      "marketing_segments": ["Daily commuters", "Weekend cycling groups"]
+    }
+  }
+}

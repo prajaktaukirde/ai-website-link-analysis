@@ -1,0 +1,29 @@
+Local verification with Python 3.14.6
+
+Command: python -m unittest discover -s tests -v
+
+test_analysis_request_to_structured_response ... ok
+test_analysis_requires_key_when_configured ... ok
+test_analysis_validation ... ok
+test_connection_close_keeps_transport_open_for_body ... ok
+test_extracts_related_page_and_drops_boilerplate ... ok
+test_gemini_request_to_structured_response ... ok
+test_model_timeout_is_reported ... ok
+test_private_dns_is_rejected_before_connecting ... ok
+test_public_ip_check ... ok
+
+Ran 9 tests in 0.231s
+OK
+
+The suite uses fixed HTML and simulated model responses.
+The separate live check reached OpenAI after retrieving Mozilla's site.
+OpenAI returned HTTP 429 with credit_balance_exhausted.
+
+Live Gemini 3.1 Flash-Lite check
+POST /link-analysis with https://www.mozilla.org/en-US/
+HTTP 200
+Brand: Mozilla
+Sections: competitor_analysis, target_search_queries, seo_improvements, top_services, target_audience
+Sources: 3
+Queries: 5
+Services: 5
